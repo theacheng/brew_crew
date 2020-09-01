@@ -1,7 +1,6 @@
 import 'package:brew_crew/models/user.dart';
 import 'package:brew_crew/services/database.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-//import 'package:brew_crew/models/user.dart';
 
 class AuthService {
   final FirebaseAuth _auth = FirebaseAuth.instance;
@@ -13,10 +12,8 @@ class AuthService {
 
   // auth change user stream
   Stream<CustomUser> get user {
-    return _auth
-        .authStateChanges()
-        //.map((User user) => _userFromFirebaseUser(user));  // this is same to below
-        .map(_userFromFirebaseUser);
+    return _auth.authStateChanges().map(_userFromFirebaseUser);
+    //.map((User user) => _userFromFirebaseUser(user));  // this is same to above
   }
 
   // sign in anon

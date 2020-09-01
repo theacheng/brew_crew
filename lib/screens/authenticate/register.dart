@@ -26,8 +26,8 @@ class _RegisterState extends State<Register> {
     return loading
         ? Loading()
         : Scaffold(
-                  resizeToAvoidBottomInset: false,
-        resizeToAvoidBottomPadding: false,
+            resizeToAvoidBottomInset: false,
+            resizeToAvoidBottomPadding: false,
             backgroundColor: Colors.brown[50],
             appBar: AppBar(
               backgroundColor: Colors.brown[400],
@@ -88,8 +88,7 @@ class _RegisterState extends State<Register> {
                             email,
                             password,
                           );
-                          if (result != null) {
-                          } else {
+                          if (result == null) {
                             setState(() {
                               loading = false;
                               error = 'please supply a valid email';
