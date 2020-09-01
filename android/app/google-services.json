@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "880066908092",
+    "firebase_url": "https://brew-crew-789a0.firebaseio.com",
+    "project_id": "brew-crew-789a0",
+    "storage_bucket": "brew-crew-789a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880066908092:android:bbc3affee88204b44065b9",
+        "android_client_info": {
+          "package_name": "com.imacoustic.brew_crew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880066908092-69k9pvone3obq10eqqvggvlfdeq3q8f0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqDq9eRjpB4HIqTgsldRW48LbqynotKBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880066908092-69k9pvone3obq10eqqvggvlfdeq3q8f0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
